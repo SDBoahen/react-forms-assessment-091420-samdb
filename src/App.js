@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+//import characters from './api.js'; 
+
+import AnimeCharacters from './Containers/AnimeCharacters.js'; 
+
+import Form from './Components/Form.js'; 
+
 
 function App() {
   return (
+
+
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div  className='Sam'>
+            <h1>Yeoooo!</h1>
+      </div>
+
+      <div  className="Form">
+            <Form />
+      </div>
+
+      <div  className='AnimeCharacters'>
+            <AnimeCharacters />
+      </div>
+
     </div>
   );
 }
